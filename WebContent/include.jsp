@@ -7,16 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-   int i = 0;
-   while(true){
-      i++;
-      out.println("2 * " + i + " = " + (2 * i)  + "<br />");
-%>
-   =========<br />
-<%
-      if(i >= 9) break;
-   }
-%>
+	<h1>인크루드를 시킵니다.</h1>
+	<%@ include file = "include01.jsp" %>
+	<h1>인크루드가 되었습니다..</h1>
 </body>
 </html>

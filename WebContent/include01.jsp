@@ -7,16 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-   int i = 0;
-   while(true){
-      i++;
-      out.println("2 * " + i + " = " + (2 * i)  + "<br />");
-%>
-   =========<br />
-<%
-      if(i >= 9) break;
-   }
-%>
+	<h1>include01.jsp 파일 입니다.</h1>
 </body>
 </html>
