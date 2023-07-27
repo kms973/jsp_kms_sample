@@ -4,6 +4,17 @@ public class Circle {
 	static final double PI = 3.1415;
 	private double radius;
 
+	public double getRadius() {
+		return radius;
+	}
+
+	public void setRadius(double radius) {
+		this.radius = radius;
+	}
+
+	public Circle() {
+	}
+
 	public Circle(double rad) {
 		radius = rad;
 	}
