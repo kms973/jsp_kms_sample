@@ -1,3 +1,4 @@
+<%@page import="java.util.Arrays"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -7,9 +8,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>인크루드를 시킵니다.</h1>
-	<%@ include file = "include01.jsp" %>
-	<jsp:include page="include01.jsp"/>
-	<h1>인크루드가 되었습니다..</h1>
+<%
+//sendredirect
+int age = Integer.valueOf(request.getParameter("age"));
+
+%>
+<h1><%=age %>성인입니다. 주류판매 가능</h1>
+
 </body>
 </html>

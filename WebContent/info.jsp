@@ -1,5 +1,8 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+
+<%-- <%@ page errorPage="errorPage.jsp"%> --%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,9 +10,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>인크루드를 시킵니다.</h1>
-	<%@ include file = "include01.jsp" %>
-	<jsp:include page="include01.jsp"/>
-	<h1>인크루드가 되었습니다..</h1>
+	<%
+		int i = 40 / 0;
+	%>
 </body>
 </html>
